@@ -70,7 +70,8 @@ pip install -r requirements.txt
 Run the main script:
 
 ```bash
-python main.py
+uvicorn main:app --reload
+
 ```
 
 Python example:
