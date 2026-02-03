@@ -33,36 +33,27 @@ cd project-name
 
 2. Create a virtual environment
 
-```bash
-python -m venv .venv
+
+```powershell
+./install
 ```
 
 3. Activate the virtual environment
 
-* Windows CMD:
-
-```cmd
-.venv\Scripts\activate
-```
-
-* PowerShell:
 
 ```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-* Linux / macOS Bash:
-
-```bash
-source .venv/bin/activate
+./activate
 ```
 
 4. Install dependencies (only missing packages)
 
-```bash
+```powershell
 pip install -r requirements.txt
 ```
-
+5. Deactivate the virtual environment
+```powershell
+./deactivate
+```
 ---
 
 ## Usage
