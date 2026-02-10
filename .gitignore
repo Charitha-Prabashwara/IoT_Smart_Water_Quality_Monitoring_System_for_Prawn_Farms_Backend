@@ -16,3 +16,5 @@ venv/
 
 # Logs
 *.log
+.env
+/database/data.db
